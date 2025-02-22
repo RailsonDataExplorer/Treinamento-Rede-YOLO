@@ -4,7 +4,7 @@ Este projeto tem como objetivo demonstrar a configuração e utilização do YOL
 
 ![Exemplo de Detecção](predictions.jpg)
 
-📋 **Índice**  
+## 📋 **Índice**  
 [🌟 Visão Geral](#-visão-geral)  
 [🔧 Funcionalidades](#-funcionalidades)  
 [💻 Requisitos](#-requisitos)  
@@ -14,19 +14,19 @@ Este projeto tem como objetivo demonstrar a configuração e utilização do YOL
 [📈 Resultados Esperados](#-resultados-esperados)  
 [🤝 Contribuições](#-contribuições)  
 [📜 Licença](#-licença)  
-[🙏 Reconhecimentos](#-reconhecimentos)  
-[🌐 Links Úteis](#-links-úteis)
+[🙏 Reconhecimentos 🌐 Links Úteis](#-reconhecimentos-links-úteis)  
 
 ---
 
 ## 🌟 Visão Geral
-O projeto aborda:  
-✅ Configuração do ambiente com GPU no Google Colab.  
-✅ Compilação da Darknet com suporte a GPU, CUDA e OpenCV.  
-✅ Utilização de pesos pré-treinados do YOLOv4.  
-✅ Detecção de objetos em imagens e visualização dos resultados.  
+Este projeto visa:  
+- ✅ Configurar o ambiente com GPU no [Google Colab](https://colab.research.google.com/).  
+- ✅ Compilar o [Darknet](https://github.com/AlexeyAB/darknet) com suporte a GPU, CUDA e OpenCV.  
+- ✅ Utilizar pesos pré-treinados do [YOLOv4](https://github.com/AlexeyAB/darknet#yolov4).  
+- ✅ Realizar a detecção de objetos em imagens e visualizar os resultados.  
 
-Ideal para praticar configurações avançadas e entender o fluxo de trabalho do YOLO.
+Ideal para quem deseja praticar configurações avançadas e entender o fluxo de trabalho do YOLO.
+
 
 ---
 
@@ -67,7 +67,7 @@ Ideal para praticar configurações avançadas e entender o fluxo de trabalho do
 
 ```bash
 ### 2. Baixar Pesos do YOLOv4
-
+```
 ## 🚀 Uso
 #Detecção em Imagem
 ```bash
@@ -86,15 +86,19 @@ def mostrar(frame):
     plt.show()
 
 mostrar('predictions.jpg')
+```
+
 
 ## 📂 Estrutura do Projeto
-```bash
+```
 darknet/
 ├── cfg/               # Arquivos de configuração do YOLO
 ├── data/              # Imagens de exemplo
 ├── yolov4.weights     # Pesos pré-treinados
 ├── darknet            # Executável compilado
 └── predictions.jpg    # Resultado gerado
+
+```
 
 ## 📈 Resultados Esperados
 Arquivo `predictions.jpg` com bounding boxes identificando objetos.
@@ -116,18 +120,11 @@ Envie um pull request.
 
 Distribuído sob a licença MIT. Veja LICENSE para detalhes.
 
-## 🙏 Reconhecimentos
+## 🙏 Reconhecimentos e 🌐 Links Úteis
 
-AlexeyAB: Mantenedor da Darknet.
 
-Joseph Redmon: Criador original do YOLO.
+### Links explicados:
+-  **[AlexeyAB](https://github.com/AlexeyAB)**: Mantenedor da [Darknet](https://github.com/AlexeyAB/darknet), que também mantém o repositório YOLOv4.
+- **[Joseph Redmon](https://github.com/AlexeyAB/darknet#citado-por-joseph-redmon)**: Criador original do [YOLO](https://github.com/AlexeyAB/darknet#yolov4), mencionado na seção do repositório.
+- **[Google Colab](https://colab.research.google.com/)**: Plataforma de experimentação com [GPU grátis](https://colab.research.google.com/) para rodar códigos de machine learning, ideal para rodar este tipo de projeto.
 
-Google Colab: Plataforma de experimentação com GPU grátis.
-
-## 🌐 Links Úteis
-
-Documentação da Darknet
-
-Paper YOLOv4
-
-Tutorial Google Colab
