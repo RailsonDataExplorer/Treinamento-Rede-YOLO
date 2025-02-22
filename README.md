@@ -2,7 +2,8 @@
 
 Este projeto tem como objetivo demonstrar a configuração e utilização do YOLO (You Only Look Once) através da framework Darknet para detecção de objetos em imagens. Desenvolvido em Google Colab com suporte a GPU, inclui etapas desde a compilação até a visualização de resultados.
 
-![Exemplo de Detecção](predictions.jpg)
+![Exemplo de Detecção](https://github.com/RailsonDataExplorer/Treinamento-Rede-YOLO/blob/main/img.png)
+
 
 ## 📋 **Índice**  
 [🌟 Visão Geral](#-visão-geral)  
